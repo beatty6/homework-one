@@ -1,1 +1,41 @@
-/* Styles for your homework one assignment */
+h1 {
+    font-family: 'Spartan', sans-serif;
+}
+
+p {
+    font-family: 'Big-Shoulders', sans-serif;
+}
+
+li {
+    font-family: 'Big-Shoulders', sans-serif;
+    list-style: none;
+}
+
+a {
+    font-family: 'Spartan', sans-serif;
+    text-decoration: none;
+    color: red;
+    font-weight: bolder;
+}
+
+
+div#larryfine {
+    background-size: contain;
+
+    background-image: url(https://dtlon6z3v1kfl.cloudfront.net/wp-content/uploads/2017/01/11092058/6803669.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+    width: auto;
+    /*background-size: contain;*/
+}
+
+div#moehoward {
+    background-size: contain;
+    background-image: url(https://d9nvuahg4xykp.cloudfront.net/7966399834371162102/-7705350022109686745.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+    width: auto;
+    /*background-size: contain;*/
+}
