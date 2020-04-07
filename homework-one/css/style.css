@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+}
+
+h1 {
+    padding-top: 100px;
+    text-align: center;
+    margin: auto;
+    font-family: 'Spartan', sans-serif;
+}
+
+p {
+    max-width: 500px;
+    margin: auto;
+    margin-top: 30px;
+    font-family: 'Big-Shoulders', sans-serif;
+}
+
+li {
+    font-family: 'Big Shoulders Text', cursive;
+    font-size: 30px;
+    list-style: none;
+}
+
+
+a {
+    font-family: 'Spartan', sans-serif;
+    text-decoration: none;
+    color: red;
+    font-weight: bolder;
+}
+
+a#home {
+    margin-left: 5vw;
+    position: fixed;
+}
+
+div.navbar {
+
+    margin: auto;
+    text-align: center;
+}
+
+#moe, #larry, #curly {
+    width: 50vw;
+    margin: auto;
+}
+
+a.stoogelink1,
+a.stoogelink2,
+a.stoogelink3 {
+    margin-right: 2vw;
+    font-size: 35px;
+
+}
+
+div.main {
+    background-image: url(https://assetsds.cdnedge.bluemix.net/sites/default/files/styles/very_big_1/public/feature/images/the_three_stooges.jpg?itok=j94Y8ih0);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: auto;
+    height: 400px;
+
+    position: relative;
+
+
+
+}
+
+.quickfacts {
+    min-width: 250px;
+    max-width: 400px;
+}
+
+div#larryfine {
+    background-size: contain;
+
+    background-image: url(https://dtlon6z3v1kfl.cloudfront.net/wp-content/uploads/2017/01/11092058/6803669.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+    width: auto;
+    /*background-size: contain;*/
+}
+
+div#moehoward {
+    background-size: contain;
+    background-image: url(https://d9nvuahg4xykp.cloudfront.net/7966399834371162102/-7705350022109686745.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+    width: auto;
+    /*background-size: contain;*/
+}
+
+div#curlyhoward {
+    background-size: contain;
+    background-image: url(https://www.gstatic.com/tv/thumb/persons/189024/189024_v9_ba.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+    width: auto;
+    /*background-size: contain;*/
+}
